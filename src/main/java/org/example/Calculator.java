@@ -57,6 +57,7 @@ public class Calculator {
                 case 30 -> purchaseAmount - purchaseAmount * 0.30;
                 case 35 -> purchaseAmount - purchaseAmount * 0.35;
                 case 40 -> purchaseAmount - purchaseAmount * 0.40;
+                case 45 -> purchaseAmount - purchaseAmount * 0.45;
                 default -> purchaseAmount;
             };
         }

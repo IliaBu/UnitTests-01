@@ -132,4 +132,5 @@ public class CalculatorTest {
         assertThatThrownBy(() -> Calculator.calculation(7, 4, '_'))
                 .isInstanceOf(IllegalStateException.class);
     }
+
 }
